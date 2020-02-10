@@ -3,7 +3,7 @@ import { TextTest,AddStar } from '@/components';
 import styles from './style.less';
 
 const Home = () => {
-  let time = '2015/12/23';
+  let time = '2016/12/23';
   console.log(time.replace(/\//g, '-'))
   // const throttle = (func, delay) => {
   //   var prev = Date.now();
@@ -21,7 +21,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <TextTest />
-      {/* <button>点击</button> */}
+      1111111
+      <button>点击</button>
       <AddStar number={4}/>
     </div>
   )
