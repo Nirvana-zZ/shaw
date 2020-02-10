@@ -3,7 +3,7 @@ import { TextTest,AddStar } from '@/components';
 import styles from './style.less';
 
 const Home = () => {
-  let time = '2016/12/23';
+  let time = '2015/12/23';
   console.log(time.replace(/\//g, '-'))
   // const throttle = (func, delay) => {
   //   var prev = Date.now();
