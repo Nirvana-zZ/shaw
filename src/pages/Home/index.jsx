@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <TextTest />
-      1111111
+      {/* 1111111 */}
       <button>点击</button>
       <AddStar number={4}/>
     </div>
